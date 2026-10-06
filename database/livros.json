@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "6ac5251353c59d19d9f23bb6"
+  },
+  "titulo": "Dom Casmurro",
+  "autor": "Machado de Assis",
+  "genero": "Romance",
+  "paginas": 296,
+  "disponivel": false,
+  "anoPublicacao": 1899
+},
+{
+  "_id": {
+    "$oid": "6ac5254853c59d19d9f23bb8"
+  },
+  "titulo": "1984",
+  "autor": "George Orwell",
+  "ano": 1949,
+  "genero": "Distopia",
+  "paginas": 446,
+  "disponivel": true
+},
+{
+  "_id": {
+    "$oid": "6ac5254853c59d19d9f23bb9"
+  },
+  "titulo": "O Hobbit",
+  "autor": "J.R.R. Tolkien",
+  "ano": 1937,
+  "genero": "Fantasia",
+  "paginas": 340,
+  "disponivel": false
+},
+{
+  "_id": {
+    "$oid": "6ac5254853c59d19d9f23bba"
+  },
+  "titulo": "Sapiens",
+  "autor": "Yuval Harari",
+  "ano": 2011,
+  "genero": "História",
+  "paginas": 494,
+  "disponivel": true
+},
+{
+  "_id": {
+    "$oid": "6ac525cc53c59d19d9f23bbc"
+  },
+  "titulo": "Clean Code",
+  "autor": {
+    "nome": "Robert Martin",
+    "nacionalidade": "EUA"
+  },
+  "editora": {
+    "nome": "Prentice Hall",
+    "ano": 2008
+  },
+  "tags": [
+    "programação",
+    "boas práticas"
+  ],
+  "disponivel": true,
+  "paginas": ""
+},
+{
+  "_id": {
+    "$oid": "6ac531cc53c59d19d9f23bbf"
+  },
+  "$inc": {
+    "paginas": 10
+  }
+}]
